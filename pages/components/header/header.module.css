@@ -1,0 +1,38 @@
+.headerNav{
+  
+}
+.loadingWaiting{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+a.navBtn {
+    border: none;
+    background: transparent;
+    padding: 13px 7px;
+    width: 100%;
+    font-size: 14px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+header .swiper-button-next,header  .swiper-button-prev{
+    font-size: 13px;
+    color: black;
+    font-weight: bolder;
+
+}
+
+header  .swiper-button-prev,header  .swiper-container-rtl .swiper-button-next {
+    left: -10px;
+    right: auto;
+}
+header  .swiper-button-next,header  .swiper-container-rtl .swiper-button-prev {
+    right: -10px;
+    left: auto;
+}
