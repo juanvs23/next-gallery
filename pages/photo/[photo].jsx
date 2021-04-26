@@ -1,10 +1,10 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../../components/layout/index'
 import { FunctionalsContent } from '../../context/contextApi'
 import { useRouter } from 'next/router'
-import {fetchImage} from '../helpers/fetch'
+import {fetchImage} from '../../helpers/fetch'
 import styled from '@emotion/styled'
-import ItemImage from '../components/itemimage'
+import ItemImage from '../../components/itemimage/index'
 
 
 const PhotoContainer=styled.section`

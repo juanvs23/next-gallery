@@ -1,8 +1,8 @@
 import React from 'react'
 import { FunctionalsContent } from '../context/contextApi'
-import Layout from './components/layout'
-import MansoryList from './components/layout/mansoryList'
-import {fetchImage, getRandomInt,morePage} from './helpers/fetch'
+import Layout from '../components/layout/index'
+import MansoryList from '../components/layout/mansoryList'
+import {fetchImage, getRandomInt,morePage} from '../helpers/fetch'
 
 const Home = () => {
     const {page,setPage,title,setTitle,setimageList,setSelect}=React.useContext(FunctionalsContent)

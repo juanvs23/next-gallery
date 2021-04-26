@@ -1,9 +1,9 @@
 import React from 'react'
-import Layout from '../components/layout/index'
+import Layout from '../../components/layout/index'
 import { FunctionalsContent } from '../../context/contextApi'
 import { useRouter } from 'next/router'
-import MansoryList from '../components/layout/mansoryList'
-import {fetchImage} from '../helpers/fetch'
+import MansoryList from '../../components/layout/mansoryList'
+import {fetchImage} from '../../helpers/fetch'
 
 const Collection = () => {
     const router = useRouter()
